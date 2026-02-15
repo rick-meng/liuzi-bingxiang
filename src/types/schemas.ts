@@ -72,6 +72,40 @@ export const shoppingListRequestSchema = z.object({
   recipeIds: z.array(z.string().min(1)).min(1)
 });
 
+export const authRegisterSchema = z.object({
+  email: z.email().min(3).max(120),
+  password: z.string().min(8).max(128),
+  displayName: z.string().min(1).max(60).optional(),
+  market: marketSchema.optional(),
+  timezone: z.string().min(1).optional()
+});
+
+export const authLoginSchema = z.object({
+  email: z.email().min(3).max(120),
+  password: z.string().min(8).max(128)
+});
+
+export const linkWechatIdentitySchema = z
+  .object({
+    providerUid: z.string().min(1).max(128).optional(),
+    unionId: z.string().min(1).max(128).optional(),
+    openId: z.string().min(1).max(128).optional(),
+    appId: z.string().min(1).max(64).optional()
+  })
+  .superRefine((payload, ctx) => {
+    const hasProviderUid = Boolean(payload.providerUid);
+    const hasUnion = Boolean(payload.unionId);
+    const hasOpenIdAndAppId = Boolean(payload.openId && payload.appId);
+    if (hasProviderUid || hasUnion || hasOpenIdAndAppId) {
+      return;
+    }
+
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: "providerUid or unionId or openId+appId is required"
+    });
+  });
+
 export const userSettingsUpsertSchema = z.object({
   userId: z.string().min(1),
   values: z.record(
@@ -87,3 +121,6 @@ export type PantryItemUpdateInput = z.infer<typeof pantryItemUpdateSchema>;
 export type DinnerRecommendationRequest = z.infer<typeof dinnerRecommendationRequestSchema>;
 export type ShoppingListRequest = z.infer<typeof shoppingListRequestSchema>;
 export type UserSettingsUpsertInput = z.infer<typeof userSettingsUpsertSchema>;
+export type AuthRegisterInput = z.infer<typeof authRegisterSchema>;
+export type AuthLoginInput = z.infer<typeof authLoginSchema>;
+export type LinkWechatIdentityInput = z.infer<typeof linkWechatIdentitySchema>;

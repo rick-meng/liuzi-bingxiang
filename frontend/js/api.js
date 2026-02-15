@@ -2,8 +2,24 @@ const JSON_HEADERS = {
   "Content-Type": "application/json"
 };
 
+let authToken = null;
+
+export function setAuthToken(nextToken) {
+  authToken = nextToken || null;
+}
+
 async function request(path, options = {}) {
-  const response = await fetch(path, options);
+  const headers = {
+    ...(options.headers ?? {})
+  };
+  if (authToken) {
+    headers.Authorization = `Bearer ${authToken}`;
+  }
+
+  const response = await fetch(path, {
+    ...options,
+    headers
+  });
 
   if (response.status === 204) {
     return null;
@@ -30,6 +46,44 @@ function query(path, params) {
 }
 
 export const api = {
+  register(payload) {
+    return request("/auth/register", {
+      method: "POST",
+      headers: JSON_HEADERS,
+      body: JSON.stringify(payload)
+    });
+  },
+
+  login(payload, market, timezone) {
+    return request(query("/auth/login", { market, timezone }), {
+      method: "POST",
+      headers: JSON_HEADERS,
+      body: JSON.stringify(payload)
+    });
+  },
+
+  getAuthMe({ market, timezone }) {
+    return request(query("/auth/me", { market, timezone }));
+  },
+
+  logout() {
+    return request("/auth/logout", {
+      method: "POST"
+    });
+  },
+
+  getLinkedIdentities() {
+    return request("/auth/identities");
+  },
+
+  linkWechatIdentity(payload) {
+    return request("/auth/link/wechat-miniprogram", {
+      method: "POST",
+      headers: JSON_HEADERS,
+      body: JSON.stringify(payload)
+    });
+  },
+
   getProfile({ userId, market, timezone }) {
     return request(query("/users/me/profile", { userId, market, timezone }));
   },

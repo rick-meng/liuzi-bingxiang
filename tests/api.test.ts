@@ -386,6 +386,88 @@ describe("NZ/AU pantry MVP APIs", () => {
     expect(badSettingsResp.status).toBe(400);
   });
 
+  it("supports web auth, token scoped access, and logout", async () => {
+    const registerResp = await request(app).post("/auth/register").send({
+      email: "auth_case@example.com",
+      password: "pass12345",
+      displayName: "Auth Case",
+      market: "NZ",
+      timezone: "Pacific/Auckland"
+    });
+
+    expect(registerResp.status).toBe(201);
+    expect(registerResp.body.user.email).toBe("auth_case@example.com");
+    const token = registerResp.body.token as string;
+    expect(token).toBeTruthy();
+
+    const meResp = await request(app)
+      .get("/auth/me?market=NZ&timezone=Pacific/Auckland")
+      .set("Authorization", `Bearer ${token}`);
+    expect(meResp.status).toBe(200);
+    expect(meResp.body.user.displayName).toBe("Auth Case");
+
+    const addResp = await request(app)
+      .post("/pantry/items?market=NZ")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        name: "鸡蛋",
+        quantity: 6,
+        unit: "piece",
+        storageType: "fridge"
+      });
+    expect(addResp.status).toBe(201);
+
+    const pantryResp = await request(app)
+      .get("/pantry/items")
+      .set("Authorization", `Bearer ${token}`);
+    expect(pantryResp.status).toBe(200);
+    expect(pantryResp.body.length).toBe(1);
+
+    const logoutResp = await request(app)
+      .post("/auth/logout")
+      .set("Authorization", `Bearer ${token}`);
+    expect(logoutResp.status).toBe(204);
+
+    const afterLogoutResp = await request(app)
+      .get("/auth/me")
+      .set("Authorization", `Bearer ${token}`);
+    expect(afterLogoutResp.status).toBe(401);
+  });
+
+  it("supports linking wechat mini program identities for future account unification", async () => {
+    const registerResp = await request(app).post("/auth/register").send({
+      email: "wechat_bind@example.com",
+      password: "pass12345",
+      displayName: "WX Bind"
+    });
+    expect(registerResp.status).toBe(201);
+    const token = registerResp.body.token as string;
+
+    const linkResp = await request(app)
+      .post("/auth/link/wechat-miniprogram")
+      .set("Authorization", `Bearer ${token}`)
+      .send({
+        unionId: "union_demo_001",
+        openId: "openid_demo_001",
+        appId: "wx_demo_appid_001"
+      });
+
+    expect(linkResp.status).toBe(201);
+    expect(linkResp.body.provider).toBe("wechat_miniprogram");
+    expect(linkResp.body.providerUid).toBe("union_demo_001");
+
+    const listResp = await request(app)
+      .get("/auth/identities")
+      .set("Authorization", `Bearer ${token}`);
+    expect(listResp.status).toBe(200);
+    expect(
+      listResp.body.identities.some(
+        (item: { provider: string; providerUid: string }) =>
+          item.provider === "wechat_miniprogram" && item.providerUid === "union_demo_001"
+      )
+    ).toBe(true);
+  });
+
   it("exposes initialized catalog and build report", async () => {
     const catalogResp = await request(app).get("/catalog/ingredients?market=NZ");
     const reportResp = await request(app).get("/catalog/build-report");

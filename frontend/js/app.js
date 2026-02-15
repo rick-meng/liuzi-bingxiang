@@ -1,4 +1,4 @@
-import { api } from "./api.js";
+import { api, setAuthToken } from "./api.js";
 import { t } from "./i18n.js";
 import { createInitialState, buildCatalogMap, computeZoneSummaries, getZoneItems, getVisibleDynamicFields } from "./state.js";
 import { FRIDGE_ZONES, getZoneLabel, resolveZoneId } from "./fridgeZones.js";
@@ -30,6 +30,16 @@ try {
   state.recentIngredientKeys = [];
 }
 
+try {
+  const token = window.localStorage.getItem(AUTH_TOKEN_STORAGE_KEY);
+  if (token) {
+    state.authToken = token;
+    setAuthToken(token);
+  }
+} catch {
+  state.authToken = null;
+}
+
 const SECTION_LABEL_KEYS = {
   language_region: "languageRegion",
   cooking_preferences: "cookingPreferences",
@@ -50,6 +60,7 @@ const CATEGORY_LABEL_KEY = {
 const CATEGORY_ORDER = ["all", "protein", "vegetable", "staple", "sauce", "seasoning", "aromatics"];
 const ALL_UNITS = ["piece", "g", "kg", "ml", "l", "pack", "tbsp", "tsp"];
 const RECENT_INGREDIENTS_STORAGE_KEY = "lzbx_recent_ingredients";
+const AUTH_TOKEN_STORAGE_KEY = "lzbx_auth_token";
 const QUICK_INGREDIENT_KEYS = [
   "egg",
   "tomato",
@@ -74,6 +85,27 @@ const DEFAULT_QUANTITY_BY_UNIT = {
   tbsp: 1,
   tsp: 1
 };
+
+function persistAuthToken(token) {
+  try {
+    if (!token) {
+      window.localStorage.removeItem(AUTH_TOKEN_STORAGE_KEY);
+      return;
+    }
+    window.localStorage.setItem(AUTH_TOKEN_STORAGE_KEY, token);
+  } catch {
+    // Ignore localStorage failures.
+  }
+}
+
+function clearAuthState() {
+  state.authToken = null;
+  state.authUser = null;
+  state.isAuthenticated = false;
+  state.userId = "";
+  setAuthToken(null);
+  persistAuthToken(null);
+}
 
 function getCategoryLabel(category) {
   return t(state.language, CATEGORY_LABEL_KEY[category] ?? "categoryAll");
@@ -495,6 +527,51 @@ function renderShoppingTab() {
   `;
 }
 
+function renderAuthPage() {
+  const mode = state.authMode;
+  const isRegister = mode === "register";
+  const actionLabel = isRegister ? t(state.language, "registerAction") : t(state.language, "loginAction");
+
+  return `
+    <main class="auth-page">
+      <section class="auth-card">
+        <h2>${t(state.language, "authTitle")}</h2>
+        <p>${t(state.language, "authSubtitle")}</p>
+
+        <div class="auth-tabs">
+          <button type="button" data-auth-mode="login" class="${mode === "login" ? "active" : ""}">
+            ${t(state.language, "authLoginTab")}
+          </button>
+          <button type="button" data-auth-mode="register" class="${mode === "register" ? "active" : ""}">
+            ${t(state.language, "authRegisterTab")}
+          </button>
+        </div>
+
+        <form id="auth-form" class="auth-form">
+          <label>
+            ${t(state.language, "email")}
+            <input id="auth-email" type="email" required value="${safeHtml(state.authDraft.email || "")}">
+          </label>
+          <label>
+            ${t(state.language, "password")}
+            <input id="auth-password" type="password" minlength="8" required value="${safeHtml(state.authDraft.password || "")}">
+          </label>
+          ${isRegister
+            ? `<label>
+                ${t(state.language, "displayName")}
+                <input id="auth-display-name" type="text" required value="${safeHtml(state.authDraft.displayName || "")}">
+              </label>`
+            : ""}
+          <small>${t(state.language, "authPasswordHint")}</small>
+          <button type="submit" class="primary-btn" ${state.authLoading ? "disabled" : ""}>
+            ${state.authLoading ? `${t(state.language, "loading")}` : actionLabel}
+          </button>
+        </form>
+      </section>
+    </main>
+  `;
+}
+
 function renderMainPage() {
   let body = "";
   if (state.loading) {
@@ -578,7 +655,10 @@ function renderSettingsPage() {
   return `
     <main class="page-content settings-page">
       ${sectionCards.join("")}
-      <button type="button" class="primary-btn" id="save-settings">${t(state.language, "save")}</button>
+      <div class="settings-actions">
+        <button type="button" class="primary-btn" id="save-settings">${t(state.language, "save")}</button>
+        <button type="button" class="ghost-btn" id="logout-btn">${t(state.language, "logout")}</button>
+      </div>
     </main>
   `;
 }
@@ -799,8 +879,20 @@ function render() {
     return;
   }
 
-  const pageBody = state.page === "settings" ? renderSettingsPage() : renderMainPage();
   const errorLine = state.error ? `<div class="error-banner">${safeHtml(state.error)}</div>` : "";
+
+  if (!state.isAuthenticated) {
+    appRoot.innerHTML = `
+      <div class="app-shell auth-shell">
+        ${errorLine}
+        ${renderAuthPage()}
+      </div>
+    `;
+    bindEvents();
+    return;
+  }
+
+  const pageBody = state.page === "settings" ? renderSettingsPage() : renderMainPage();
 
   appRoot.innerHTML = `
     <div class="app-shell">
@@ -817,6 +909,28 @@ function render() {
 }
 
 function bindEvents() {
+  const authModeButtons = appRoot.querySelectorAll("[data-auth-mode]");
+  for (const button of authModeButtons) {
+    button.addEventListener("click", () => {
+      const nextMode = button.dataset.authMode;
+      if (!nextMode) {
+        return;
+      }
+      state.authMode = nextMode;
+      state.error = null;
+      render();
+    });
+  }
+
+  const authForm = appRoot.querySelector("#auth-form");
+  if (authForm) {
+    authForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      await handleAuthSubmit();
+      render();
+    });
+  }
+
   const tabButtons = appRoot.querySelectorAll("[data-tab]");
   for (const button of tabButtons) {
     button.addEventListener("click", () => {
@@ -1199,6 +1313,14 @@ function bindEvents() {
     });
   }
 
+  const logoutButton = appRoot.querySelector("#logout-btn");
+  if (logoutButton) {
+    logoutButton.addEventListener("click", async () => {
+      await handleLogout();
+      render();
+    });
+  }
+
   const localeButtons = appRoot.querySelectorAll("[data-language]");
   for (const button of localeButtons) {
     button.addEventListener("click", () => {
@@ -1259,6 +1381,103 @@ function mergeShoppingItems(items) {
     } else {
       state.shoppingItems.push(incoming);
     }
+  }
+}
+
+async function initializeAfterAuth() {
+  await Promise.all([refreshPantryContext(), refreshSettingsContext()]);
+  ensureAddDraftReady();
+  await refreshRecommendations();
+}
+
+async function handleAuthSubmit() {
+  const emailInput = appRoot.querySelector("#auth-email");
+  const passwordInput = appRoot.querySelector("#auth-password");
+  const displayNameInput = appRoot.querySelector("#auth-display-name");
+
+  const email = String(emailInput?.value ?? "").trim().toLowerCase();
+  const password = String(passwordInput?.value ?? "");
+  const displayName = String(displayNameInput?.value ?? "").trim();
+
+  state.authDraft.email = email;
+  state.authDraft.password = password;
+  state.authDraft.displayName = displayName;
+
+  if (!email || !password) {
+    state.error = `${t(state.language, "email")} / ${t(state.language, "password")} ${t(state.language, "fieldRequired")}`;
+    return;
+  }
+
+  if (state.authMode === "register" && !displayName) {
+    state.error = `${t(state.language, "displayName")} ${t(state.language, "fieldRequired")}`;
+    return;
+  }
+
+  state.authLoading = true;
+  state.error = null;
+
+  try {
+    const payload =
+      state.authMode === "register"
+        ? await api.register({
+            email,
+            password,
+            displayName,
+            market: state.market,
+            timezone: state.timezone
+          })
+        : await api.login(
+            {
+              email,
+              password
+            },
+            state.market,
+            state.timezone
+          );
+
+    state.authToken = payload.token;
+    setAuthToken(payload.token);
+    persistAuthToken(payload.token);
+    state.isAuthenticated = true;
+    state.authUser = payload.user;
+    state.userId = payload.user.id;
+    state.profile = payload.profile;
+    state.market = payload.profile.primaryMarket;
+    state.timezone = payload.profile.timezone;
+    state.language = payload.profile.language;
+    state.page = "main";
+    state.activeTab = "home";
+    state.authDraft.password = "";
+
+    await initializeAfterAuth();
+  } catch (error) {
+    state.error = error instanceof Error ? error.message : "Failed to authenticate";
+  } finally {
+    state.authLoading = false;
+  }
+}
+
+async function handleLogout() {
+  try {
+    state.error = null;
+    if (state.authToken) {
+      await api.logout();
+    }
+  } catch {
+    // Ignore logout failures and clear local session anyway.
+  } finally {
+    clearAuthState();
+    state.page = "main";
+    state.activeTab = "home";
+    state.pantryItems = [];
+    state.alerts = [];
+    state.priorityItems = [];
+    state.shoppingItems = [];
+    state.recommendations = {
+      full: [],
+      partial: [],
+      expiryFirst: []
+    };
   }
 }
 
@@ -1440,26 +1659,31 @@ async function refreshSettingsContext() {
 }
 
 async function bootstrap() {
-  state.loading = true;
+  state.loading = Boolean(state.authToken);
   render();
 
   try {
     state.error = null;
-    const profile = await api.getProfile({
-      userId: state.userId,
+    if (!state.authToken) {
+      clearAuthState();
+      return;
+    }
+
+    const me = await api.getAuthMe({
       market: state.market,
       timezone: state.timezone
     });
+    state.isAuthenticated = true;
+    state.authUser = me.user;
+    state.userId = me.user.id;
+    state.profile = me.profile;
+    state.language = me.profile.language;
+    state.market = me.profile.primaryMarket;
+    state.timezone = me.profile.timezone;
 
-    state.profile = profile;
-    state.language = profile.language;
-    state.market = profile.primaryMarket;
-    state.timezone = profile.timezone;
-
-    await Promise.all([refreshPantryContext(), refreshSettingsContext()]);
-    ensureAddDraftReady();
-    await refreshRecommendations();
+    await initializeAfterAuth();
   } catch (error) {
+    clearAuthState();
     state.error = error instanceof Error ? error.message : "Failed to load app";
   } finally {
     state.loading = false;

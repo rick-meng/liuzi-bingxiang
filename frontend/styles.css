@@ -102,6 +102,81 @@ body {
   gap: 12px;
 }
 
+.auth-shell {
+  padding-top: 32px;
+}
+
+.auth-page {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.auth-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  display: grid;
+  gap: 10px;
+}
+
+.auth-card h2 {
+  margin: 0;
+}
+
+.auth-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.auth-tabs {
+  display: inline-flex;
+  gap: 6px;
+  background: #f8f2e8;
+  border: 1px solid #e1d6c4;
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.auth-tabs button {
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.auth-tabs button.active {
+  color: var(--cta);
+  background: #fff;
+}
+
+.auth-form {
+  display: grid;
+  gap: 8px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.auth-form input {
+  border: 1px solid #d9cebd;
+  border-radius: 10px;
+  padding: 8px;
+  font: inherit;
+}
+
+.auth-form small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .content-card,
 .summary-card,
 .setting-card,
@@ -605,6 +680,12 @@ body {
 
 .settings-page {
   padding-bottom: 20px;
+}
+
+.settings-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .setting-card h3 {

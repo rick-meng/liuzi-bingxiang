@@ -2,7 +2,17 @@ import { FRIDGE_ZONES, resolveZoneId } from "./fridgeZones.js";
 
 export function createInitialState() {
   return {
-    userId: "demo_user_1",
+    userId: "",
+    authUser: null,
+    authToken: null,
+    isAuthenticated: false,
+    authMode: "login",
+    authDraft: {
+      email: "",
+      password: "",
+      displayName: ""
+    },
+    authLoading: false,
     activeTab: "home",
     page: "main",
     highlightedZoneId: null,

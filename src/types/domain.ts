@@ -197,3 +197,35 @@ export interface SettingsSchemaResponse {
 }
 
 export type SettingsValues = Record<string, string | number | boolean | string[]>;
+
+export interface AuthUser {
+  id: string;
+  email: string;
+  passwordHash: string;
+  displayName: string;
+  createdAt: string;
+  updatedAt: string;
+  lastLoginAt?: string;
+}
+
+export interface AuthSession {
+  id: string;
+  userId: string;
+  tokenHash: string;
+  createdAt: string;
+  expiresAt: string;
+}
+
+export type IdentityProvider = "email_password" | "wechat_miniprogram";
+
+export interface UserIdentity {
+  id: string;
+  userId: string;
+  provider: IdentityProvider;
+  providerUid: string;
+  unionId?: string;
+  openId?: string;
+  appId?: string;
+  createdAt: string;
+  updatedAt: string;
+}
