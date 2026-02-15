@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: liuzi-bingxiang
+    runtime: node
+    plan: free
+    autoDeploy: true
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
