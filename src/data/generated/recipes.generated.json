@@ -1,0 +1,8549 @@
+[
+  {
+    "id": "g_b64fefad21",
+    "title": "牛肉片上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_f3ea77a266",
+    "title": "牛肉片上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_7e3ff5948f",
+    "title": "牛肉片上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_8e092d75aa",
+    "title": "牛肉片西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_37f91d74be",
+    "title": "牛肉片西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_41a03869fb",
+    "title": "牛肉片西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_2560dcf60e",
+    "title": "牛肉片卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_bae692c156",
+    "title": "牛肉片卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a6601e0d0a",
+    "title": "牛肉片卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_835b4db5be",
+    "title": "牛肉片胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_782fdc8f85",
+    "title": "牛肉片胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_66268aec54",
+    "title": "牛肉片胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_77b8263706",
+    "title": "牛肉片辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_11afc3c469",
+    "title": "牛肉片辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_14775758ba",
+    "title": "牛肉片辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d8c0ed5d89",
+    "title": "牛肉片蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_aa892214c9",
+    "title": "牛肉片蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_5287b8985c",
+    "title": "牛肉片蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_5a2c8254ed",
+    "title": "牛肉片洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_87cfde530a",
+    "title": "牛肉片洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_629531dbec",
+    "title": "牛肉片洋葱拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和洋葱炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_6c97d67d51",
+    "title": "牛肉片番茄快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉片切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉片翻炒至变色。",
+      "加入番茄和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_3ff73fd542",
+    "title": "牛肉片番茄盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉片炒熟后加入番茄继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_3b9632760f",
+    "title": "牛肉片番茄拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "beef_slice",
+        "nameZh": "牛肉片",
+        "nameEn": "sliced beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉片和番茄炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_e2cbf14a58",
+    "title": "鸡腿肉上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_00f12381bf",
+    "title": "鸡腿肉上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_d987cc81f2",
+    "title": "鸡腿肉上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_137eca0305",
+    "title": "鸡腿肉西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_47eb0db2a0",
+    "title": "鸡腿肉西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_32065caac6",
+    "title": "鸡腿肉西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8ed1ca177a",
+    "title": "鸡腿肉卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_e9d97f1d2f",
+    "title": "鸡腿肉卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_ff7957f2d5",
+    "title": "鸡腿肉卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_56f860d73e",
+    "title": "鸡腿肉胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_669ab1a25c",
+    "title": "鸡腿肉胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_7ddd93ab05",
+    "title": "鸡腿肉胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b0b2558136",
+    "title": "鸡腿肉辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d7db590bbe",
+    "title": "鸡腿肉辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_e3c637e3bd",
+    "title": "鸡腿肉辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_5cb463983d",
+    "title": "鸡腿肉蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_9b42f97b27",
+    "title": "鸡腿肉蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_0c646b9d72",
+    "title": "鸡腿肉蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_87011442bc",
+    "title": "鸡腿肉洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b35c78816c",
+    "title": "鸡腿肉洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b5ba33d369",
+    "title": "鸡腿肉洋葱拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和洋葱炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_9a5247cbfc",
+    "title": "鸡腿肉番茄快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "鸡腿肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入鸡腿肉翻炒至变色。",
+      "加入番茄和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d09ae73cec",
+    "title": "鸡腿肉番茄盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将鸡腿肉炒熟后加入番茄继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_ad2b44fd76",
+    "title": "鸡腿肉番茄拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chicken_thigh",
+        "nameZh": "鸡腿肉",
+        "nameEn": "chicken thigh",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将鸡腿肉和番茄炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_4f28acbefa",
+    "title": "牛肉末上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_8ab5219481",
+    "title": "牛肉末上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_4c1e0c16a2",
+    "title": "牛肉末上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_61ee944b4b",
+    "title": "牛肉末西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_260b331ab1",
+    "title": "牛肉末西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a2aad8cf9a",
+    "title": "牛肉末西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8cdef732a5",
+    "title": "牛肉末卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a1e2696892",
+    "title": "牛肉末卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_1c17e6cd98",
+    "title": "牛肉末卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8bb0a1b311",
+    "title": "牛肉末胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_61b4a716a9",
+    "title": "牛肉末胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_501be2bec3",
+    "title": "牛肉末胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_3c3f31fd6e",
+    "title": "牛肉末辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d86d62c37f",
+    "title": "牛肉末辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a36927e327",
+    "title": "牛肉末辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b4f3a79db5",
+    "title": "牛肉末蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_fd444702bf",
+    "title": "牛肉末蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_9207eec8e8",
+    "title": "牛肉末蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_53943fb159",
+    "title": "牛肉末洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_724a6dad4e",
+    "title": "牛肉末洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_1056715656",
+    "title": "牛肉末洋葱拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和洋葱炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_c364a93c1d",
+    "title": "牛肉末番茄快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "牛肉末切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入牛肉末翻炒至变色。",
+      "加入番茄和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_1d4b6b8913",
+    "title": "牛肉末番茄盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将牛肉末炒熟后加入番茄继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_83c31f9abe",
+    "title": "牛肉末番茄拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ground_beef",
+        "nameZh": "牛肉末",
+        "nameEn": "ground beef",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将牛肉末和番茄炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d3ebe90f38",
+    "title": "五花肉上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_082ade743e",
+    "title": "五花肉上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_d6bf387fdc",
+    "title": "五花肉上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_fb189cc574",
+    "title": "五花肉西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_71d64b4e90",
+    "title": "五花肉西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8e65ff9c03",
+    "title": "五花肉西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_bcd77415e7",
+    "title": "五花肉卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_bf8a948949",
+    "title": "五花肉卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d085c4db9e",
+    "title": "五花肉卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_90b4eb0cbc",
+    "title": "五花肉胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8e266c9c10",
+    "title": "五花肉胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8f179b87c3",
+    "title": "五花肉胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_5cf0f08366",
+    "title": "五花肉辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b96ba81360",
+    "title": "五花肉辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d2e9fe9d52",
+    "title": "五花肉辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d244ca7230",
+    "title": "五花肉蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_8bebf34928",
+    "title": "五花肉蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_5bb3025663",
+    "title": "五花肉蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_0b54aef742",
+    "title": "五花肉洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_fb12696a15",
+    "title": "五花肉洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_29e5c23a6f",
+    "title": "五花肉洋葱拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和洋葱炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b838499309",
+    "title": "五花肉番茄快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "五花肉切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入五花肉翻炒至变色。",
+      "加入番茄和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_9d052a9214",
+    "title": "五花肉番茄盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将五花肉炒熟后加入番茄继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_4981acee8b",
+    "title": "五花肉番茄拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "pork_belly",
+        "nameZh": "五花肉",
+        "nameEn": "pork belly",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将五花肉和番茄炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_7306ccd821",
+    "title": "虾仁上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_9e9cc51d17",
+    "title": "虾仁上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_2e35d7b16f",
+    "title": "虾仁上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_cb079589cb",
+    "title": "虾仁西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_68ecb879d4",
+    "title": "虾仁西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_549b7a48ac",
+    "title": "虾仁西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_bcf559871a",
+    "title": "虾仁卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_f51915abd5",
+    "title": "虾仁卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_1217a1b8e6",
+    "title": "虾仁卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_26722c5697",
+    "title": "虾仁胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_75a1ed33dc",
+    "title": "虾仁胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b172cf72d3",
+    "title": "虾仁胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b70e3d2d77",
+    "title": "虾仁辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_57571ffde6",
+    "title": "虾仁辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_6e468460a0",
+    "title": "虾仁辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_06d69cb8ff",
+    "title": "虾仁蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_d68f25680d",
+    "title": "虾仁蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b6dabb8028",
+    "title": "虾仁蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a7b46b35c1",
+    "title": "虾仁洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_73af3f3e89",
+    "title": "虾仁洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_4d20aac46e",
+    "title": "虾仁洋葱拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和洋葱炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_b7b502d8d1",
+    "title": "虾仁番茄快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "虾仁切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入虾仁翻炒至变色。",
+      "加入番茄和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_e9e15871a1",
+    "title": "虾仁番茄盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将虾仁炒熟后加入番茄继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_09b9333c79",
+    "title": "虾仁番茄拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "shrimp",
+        "nameZh": "虾仁",
+        "nameEn": "shrimp",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tomato",
+        "nameZh": "番茄",
+        "nameEn": "tomato",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将虾仁和番茄炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_286360b2e2",
+    "title": "北豆腐上海青快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入上海青和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_9c402bb597",
+    "title": "北豆腐上海青盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入上海青继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_4dc338c742",
+    "title": "北豆腐上海青拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "bok_choy",
+        "nameZh": "上海青",
+        "nameEn": "bok choy",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和上海青炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": [
+      {
+        "ingredientKey": "bok_choy",
+        "markets": [
+          "NZ",
+          "AU"
+        ],
+        "alternatives": [
+          {
+            "ingredientKey": "choy_sum",
+            "nameZh": "菜心",
+            "nameEn": "choy sum",
+            "note": "NZ 华人超市常见叶菜替代"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g_eff7c4f48a",
+    "title": "北豆腐西兰花快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入西兰花和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_482a3092ca",
+    "title": "北豆腐西兰花盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入西兰花继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_7160f79a3a",
+    "title": "北豆腐西兰花拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "broccoli",
+        "nameZh": "西兰花",
+        "nameEn": "broccoli",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和西兰花炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_6eee1dcf13",
+    "title": "北豆腐卷心菜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入卷心菜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_c0904fbc11",
+    "title": "北豆腐卷心菜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入卷心菜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_72cd337bf9",
+    "title": "北豆腐卷心菜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "cabbage",
+        "nameZh": "卷心菜",
+        "nameEn": "cabbage",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和卷心菜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_75fc993de5",
+    "title": "北豆腐胡萝卜快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入胡萝卜和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_806df3e6b9",
+    "title": "北豆腐胡萝卜盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入胡萝卜继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_f879534871",
+    "title": "北豆腐胡萝卜拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "carrot",
+        "nameZh": "胡萝卜",
+        "nameEn": "carrot",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和胡萝卜炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_25663af024",
+    "title": "北豆腐辣椒快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入辣椒和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_a5c9d5bcb2",
+    "title": "北豆腐辣椒盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入辣椒继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "spicy",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_dee1a9e31a",
+    "title": "北豆腐辣椒拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "chili",
+        "nameZh": "辣椒",
+        "nameEn": "chili",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和辣椒炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "spicy",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_f70bbb54da",
+    "title": "北豆腐蘑菇快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入蘑菇和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_abddd2c881",
+    "title": "北豆腐蘑菇盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入蘑菇继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_313e94604b",
+    "title": "北豆腐蘑菇拌面",
+    "cuisine": "Chinese Home",
+    "servings": 1,
+    "cookMinutes": 14,
+    "ingredients": [
+      {
+        "ingredientKey": "noodles",
+        "nameZh": "面条",
+        "nameEn": "noodles",
+        "quantity": 120,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "mushroom",
+        "nameZh": "蘑菇",
+        "nameEn": "mushroom",
+        "quantity": 200,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "面条煮熟后过冷水备用。",
+      "将北豆腐和蘑菇炒熟，加入调味料。",
+      "与面条拌匀，快速翻炒 1 分钟后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_479ea3b6fe",
+    "title": "北豆腐洋葱快炒",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 16,
+    "ingredients": [
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "garlic",
+        "nameZh": "大蒜",
+        "nameEn": "garlic",
+        "quantity": 2,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "ginger",
+        "nameZh": "姜",
+        "nameEn": "ginger",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "oyster_sauce",
+        "nameZh": "蚝油",
+        "nameEn": "oyster sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "北豆腐切小块并简单腌制。",
+      "热锅下大蒜与姜爆香，加入北豆腐翻炒至变色。",
+      "加入洋葱和调味料大火快炒，收汁后出锅。"
+    ],
+    "tags": [
+      "quick",
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  },
+  {
+    "id": "g_67d135515f",
+    "title": "北豆腐洋葱盖饭",
+    "cuisine": "Chinese Home",
+    "servings": 2,
+    "cookMinutes": 22,
+    "ingredients": [
+      {
+        "ingredientKey": "rice",
+        "nameZh": "大米",
+        "nameEn": "rice",
+        "quantity": 250,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "tofu_firm",
+        "nameZh": "北豆腐",
+        "nameEn": "firm tofu",
+        "quantity": 260,
+        "unit": "g",
+        "optional": false
+      },
+      {
+        "ingredientKey": "onion",
+        "nameZh": "洋葱",
+        "nameEn": "onion",
+        "quantity": 1,
+        "unit": "piece",
+        "optional": false
+      },
+      {
+        "ingredientKey": "soy_sauce",
+        "nameZh": "生抽",
+        "nameEn": "light soy sauce",
+        "quantity": 1,
+        "unit": "tbsp",
+        "optional": false
+      },
+      {
+        "ingredientKey": "sesame_oil",
+        "nameZh": "香油",
+        "nameEn": "sesame oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "米饭煮好备用。",
+      "将北豆腐炒熟后加入洋葱继续翻炒。",
+      "加入调味料收汁，浇在热米饭上即可。"
+    ],
+    "tags": [
+      "veggie",
+      "nz-au"
+    ],
+    "substitutions": []
+  }
+]
