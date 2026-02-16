@@ -896,7 +896,7 @@ function render() {
 
   appRoot.innerHTML = `
     <div class="app-shell">
-      ${renderKitchenHeader(state.language, state.page)}
+      ${renderKitchenHeader(state.language, state.page, state.authUser)}
       ${errorLine}
       ${pageBody}
       ${renderAddModal()}
