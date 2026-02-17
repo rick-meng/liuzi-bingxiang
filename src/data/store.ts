@@ -22,7 +22,21 @@ interface PersistedStore {
   identities: UserIdentity[];
 }
 
-const STORE_FILE = resolve(process.cwd(), process.env.STORE_FILE ?? "data/runtime/store.json");
+function resolveStoreFilePath(): string {
+  const storeFileEnv = process.env.STORE_FILE?.trim();
+  if (storeFileEnv) {
+    return resolve(process.cwd(), storeFileEnv);
+  }
+
+  const renderPersistentDisk = "/var/data";
+  if (existsSync(renderPersistentDisk)) {
+    return resolve(renderPersistentDisk, "liuzi-bingxiang-store.json");
+  }
+
+  return resolve(process.cwd(), "data/runtime/store.json");
+}
+
+const STORE_FILE = resolveStoreFilePath();
 
 function defaultStore(): PersistedStore {
   return {

@@ -49,10 +49,19 @@
 1. `request 合法域名`：填你的 Render 域名（不带路径）。
 2. 如果小程序用 `web-view` 打开网页，还要配置 `业务域名`。
 
-## 5. 重要提醒（当前版本）
+## 5. 重要提醒（数据持久化）
 
-当前库存数据是内存存储，服务重启后会清空。  
-如果你准备给真实用户使用，下一步应接入数据库（例如 Supabase / Neon / Render Postgres）。
+当前项目是文件存储，不是数据库。默认会写到：
+
+- 本地开发：`data/runtime/store.json`
+- Render（检测到持久盘时）：`/var/data/liuzi-bingxiang-store.json`
+
+如果你在 Render `free` 套餐，不支持持久盘，服务重启后数据会丢失（包括注册用户）。
+
+要保留数据有 2 个方案：
+
+1. 升级到支持 Persistent Disk 的套餐（如 Starter），并挂载到 `/var/data`（推荐最省改造）。
+2. 后续改造为外部数据库（Supabase / Neon / Render Postgres）。
 
 ## 6. 常见问题
 

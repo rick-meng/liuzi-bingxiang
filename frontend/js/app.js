@@ -75,6 +75,7 @@ const QUICK_INGREDIENT_KEYS = [
   "oyster_sauce",
   "milk"
 ];
+const INGREDIENT_SEARCH_DEBOUNCE_MS = 120;
 const DEFAULT_QUANTITY_BY_UNIT = {
   piece: 2,
   g: 300,
@@ -153,6 +154,96 @@ function applyIngredientDefaults(ingredientKey) {
   state.addDraft.unit = defaultUnit;
   state.addDraft.quantity = DEFAULT_QUANTITY_BY_UNIT[defaultUnit] ?? 1;
   state.addDraft.storageType = ingredient.storageType;
+}
+
+function applyIngredientKeyword(keyword) {
+  state.addDraft.keyword = keyword;
+  const filtered = getFilteredCatalogItems(state.addDraft.category);
+  if (filtered.length === 0) {
+    state.addDraft.ingredientKey = "";
+    return;
+  }
+
+  const selectedExists = filtered.some((item) => item.ingredientKey === state.addDraft.ingredientKey);
+  if (!selectedExists) {
+    applyIngredientDefaults(filtered[0].ingredientKey);
+  }
+}
+
+function getIngredientOptionMarkup(item, selectedIngredientKey) {
+  const selected = item.ingredientKey === selectedIngredientKey ? "selected" : "";
+  const emoji = resolveIngredientEmoji(item.ingredientKey, item.category);
+  return `
+    <option value="${item.ingredientKey}" ${selected}>
+      ${emoji} ${safeHtml(item.nameZh)} / ${safeHtml(item.nameEn)}
+    </option>
+  `;
+}
+
+function getIngredientPreviewText(ingredient) {
+  if (!ingredient) {
+    return "-";
+  }
+  return `${resolveIngredientEmoji(ingredient.ingredientKey, ingredient.category)} ${ingredient.nameZh} / ${ingredient.nameEn}`;
+}
+
+function getAddUnitOptions(selectedIngredient) {
+  return Array.from(
+    new Set([
+      state.addDraft.unit,
+      ...(selectedIngredient?.typicalUnits ?? []),
+      ...ALL_UNITS
+    ])
+  );
+}
+
+function syncAddModalFieldState() {
+  const addModal = appRoot.querySelector("#add-modal");
+  if (!addModal || !addModal.classList.contains("open")) {
+    return;
+  }
+
+  const filteredIngredients = getFilteredCatalogItems(state.addDraft.category);
+  const selectedIngredient = state.catalogMap.get(state.addDraft.ingredientKey);
+
+  const ingredientSelect = addModal.querySelector("#add-ingredient-select");
+  if (ingredientSelect) {
+    ingredientSelect.innerHTML = filteredIngredients
+      .map((item) => getIngredientOptionMarkup(item, state.addDraft.ingredientKey))
+      .join("");
+    if (filteredIngredients.length === 0) {
+      ingredientSelect.innerHTML = "<option value=''>-</option>";
+      ingredientSelect.disabled = true;
+    } else {
+      ingredientSelect.disabled = false;
+      ingredientSelect.value = state.addDraft.ingredientKey || filteredIngredients[0].ingredientKey;
+    }
+  }
+
+  const previewNode = addModal.querySelector(".add-ingredient-preview");
+  if (previewNode) {
+    previewNode.textContent = getIngredientPreviewText(selectedIngredient);
+  }
+
+  const unitSelect = addModal.querySelector("#add-unit-select");
+  if (unitSelect) {
+    const unitOptions = getAddUnitOptions(selectedIngredient);
+    unitSelect.innerHTML = unitOptions
+      .map((unit) => `<option value="${unit}" ${state.addDraft.unit === unit ? "selected" : ""}>${unit}</option>`)
+      .join("");
+    unitSelect.value = state.addDraft.unit;
+  }
+
+  const quantityInput = addModal.querySelector("#add-qty-input");
+  if (quantityInput) {
+    const quantityValue = Number(state.addDraft.quantity) > 0 ? state.addDraft.quantity : 1;
+    quantityInput.value = String(quantityValue);
+  }
+
+  const storageSelect = addModal.querySelector("#add-storage-select");
+  if (storageSelect) {
+    storageSelect.value = state.addDraft.storageType;
+  }
 }
 
 function ensureAddDraftReady() {
@@ -668,13 +759,7 @@ function renderAddModal() {
   const categoryOptions = getCategoryOptions();
   const filteredIngredients = getFilteredCatalogItems(state.addDraft.category);
   const selectedIngredient = state.catalogMap.get(state.addDraft.ingredientKey);
-  const unitOptions = Array.from(
-    new Set([
-      state.addDraft.unit,
-      ...(selectedIngredient?.typicalUnits ?? []),
-      ...ALL_UNITS
-    ])
-  );
+  const unitOptions = getAddUnitOptions(selectedIngredient);
 
   const categoryButtons = categoryOptions
     .map((category) => {
@@ -693,21 +778,9 @@ function renderAddModal() {
     .join("");
 
   const ingredientOptions = filteredIngredients
-    .map((item) => {
-      const selected = item.ingredientKey === state.addDraft.ingredientKey ? "selected" : "";
-      const emoji = resolveIngredientEmoji(item.ingredientKey, item.category);
-      return `
-        <option value="${item.ingredientKey}" ${selected}>
-          ${emoji} ${item.nameZh} / ${item.nameEn}
-        </option>
-      `;
-    })
+    .map((item) => getIngredientOptionMarkup(item, state.addDraft.ingredientKey))
     .join("");
-
-  const ingredientDisplay =
-    selectedIngredient && state.addDraft.ingredientKey
-      ? `${resolveIngredientEmoji(selectedIngredient.ingredientKey, selectedIngredient.category)} ${selectedIngredient.nameZh} / ${selectedIngredient.nameEn}`
-      : "-";
+  const ingredientDisplay = getIngredientPreviewText(selectedIngredient);
 
   const quantityValue = Number(state.addDraft.quantity) > 0 ? state.addDraft.quantity : 1;
   const recentItems = getRecentCatalogItems();
@@ -1058,27 +1131,51 @@ function bindEvents() {
         return;
       }
       applyIngredientDefaults(ingredientSelect.value);
-      render();
+      syncAddModalFieldState();
     });
   }
 
   const ingredientSearch = appRoot.querySelector("#add-ingredient-search");
   if (ingredientSearch) {
-    ingredientSearch.addEventListener("input", () => {
-      const cursor = ingredientSearch.selectionStart ?? ingredientSearch.value.length;
-      state.addDraft.keyword = ingredientSearch.value;
-      const filtered = getFilteredCatalogItems(state.addDraft.category);
-      if (filtered.length > 0) {
-        applyIngredientDefaults(filtered[0].ingredientKey);
-      } else {
-        state.addDraft.ingredientKey = "";
-      }
-      render();
+    let composing = false;
+    let searchTimer = null;
 
-      const nextSearch = appRoot.querySelector("#add-ingredient-search");
-      if (nextSearch) {
-        nextSearch.focus();
-        nextSearch.setSelectionRange(cursor, cursor);
+    const commitSearch = () => {
+      applyIngredientKeyword(ingredientSearch.value);
+      syncAddModalFieldState();
+    };
+
+    ingredientSearch.addEventListener("compositionstart", () => {
+      composing = true;
+      if (searchTimer) {
+        window.clearTimeout(searchTimer);
+        searchTimer = null;
+      }
+    });
+
+    ingredientSearch.addEventListener("compositionend", () => {
+      composing = false;
+      commitSearch();
+    });
+
+    ingredientSearch.addEventListener("input", (event) => {
+      if (composing || event.isComposing) {
+        state.addDraft.keyword = ingredientSearch.value;
+        return;
+      }
+      if (searchTimer) {
+        window.clearTimeout(searchTimer);
+      }
+      searchTimer = window.setTimeout(() => {
+        commitSearch();
+        searchTimer = null;
+      }, INGREDIENT_SEARCH_DEBOUNCE_MS);
+    });
+
+    ingredientSearch.addEventListener("blur", () => {
+      if (searchTimer) {
+        window.clearTimeout(searchTimer);
+        searchTimer = null;
       }
     });
   }
@@ -1168,14 +1265,20 @@ function bindEvents() {
     if (action === "decrease-add-qty") {
       actionButton.addEventListener("click", () => {
         state.addDraft.quantity = Math.max(0.1, Number(state.addDraft.quantity || 1) - 0.5);
-        render();
+        const qtyInput = appRoot.querySelector("#add-qty-input");
+        if (qtyInput) {
+          qtyInput.value = String(state.addDraft.quantity);
+        }
       });
     }
 
     if (action === "increase-add-qty") {
       actionButton.addEventListener("click", () => {
         state.addDraft.quantity = Number(state.addDraft.quantity || 1) + 0.5;
-        render();
+        const qtyInput = appRoot.querySelector("#add-qty-input");
+        if (qtyInput) {
+          qtyInput.value = String(state.addDraft.quantity);
+        }
       });
     }
 

@@ -3,6 +3,11 @@ services:
     name: liuzi-bingxiang
     runtime: node
     plan: free
+    # For persistent user data on Render, switch to `starter` and enable disk below.
+    # disk:
+    #   name: liuzi-bingxiang-data
+    #   mountPath: /var/data
+    #   sizeGB: 1
     autoDeploy: true
     buildCommand: npm ci && npm run build
     startCommand: npm start
